@@ -1,0 +1,12 @@
+Source: ros-indigo-cmake-node-hook
+Section: misc
+Priority: extra
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), nodejs, ros-indigo-catkin
+Homepage: http://wiki.ros.org/cmake_node_hook
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cmake-node-hook
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, nodejs
+Description: Cmake macros to invoke npm update
