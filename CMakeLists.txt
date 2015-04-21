@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(cmake_node_hook)
+project(cmake_nodejs_hook)
 
 find_package(catkin REQUIRED)
 
